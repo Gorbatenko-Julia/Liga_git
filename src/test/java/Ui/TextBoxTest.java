@@ -77,7 +77,7 @@ String permanentAddress = permanentAddressOutput.getText();
 
         System.out.println("Name: " + name + " , email: " + email + " , current address : " + currentAddress + " , permanent address : " + permanentAddress);
 
-        Assert.assertEquals(email, "Ellis.tom@internet.ru");
+        Assert.assertEquals(email, "Email:ellis.tom@internet.ru");
 
     }
 
